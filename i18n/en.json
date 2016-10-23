@@ -1,6 +1,7 @@
 {
-	"@metadata": {
-		"authors": []
+	"@metadata":
+	{
+		"authors": ["James Martindale"]
 	},
-	"mnss-desc": "Includes suggestions from all content namespaces in the search box, showing from which namespace each suggestion is from"
+	"categorysearchsuggestions-desc": "Adds categories and content namespaces to the search suggestions, with indicators of what namespace each suggestion comes from. Majority of the code stolen from Niklas Laxström."
 }
