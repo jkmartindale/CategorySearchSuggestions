@@ -1,0 +1,36 @@
+{
+	"name": "CategorySearchSuggestions",
+	"version": "0.1",
+	"author": ["James Martindale", "Niklas Laxström"],
+	"url": "https://www.mediawiki.org/wiki/Extension:CategorySearchSuggestions",
+	"descriptionmsg": "categorysearchsuggestions-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadClasses":
+	{
+		"CategorySearchSuggestions": "CategorySearchSuggestions_body.php"
+	},
+	"MessagesDirs":
+	{
+		"CategorySearchSuggestions": ["i18n"]
+	},
+	"Hooks":
+	{
+		"BeforePageDisplay" : ["CategorySearchSuggestions::beforePageDisplay"]
+	},
+	"ResourceFileModulePaths":
+	{
+		"localBasePath": "modules",
+		"remoteExtPath": "CategorySearchSuggestions/modules"
+	},
+	"ResourceModules":
+	{
+		"ext.categorysearchsuggestions.suggestions":
+		{
+			"dependencies": ["mediawiki.searchSuggest", "mediawiki.Title"],
+			"scripts": ["ext.categorysearchsuggestions.suggestions.js"],
+			"styles": ["ext.categorysearchsuggestions.suggestions.less"]
+		}
+	},
+	"manifest_version": 1
+}
