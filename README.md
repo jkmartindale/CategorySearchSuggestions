@@ -3,3 +3,5 @@ This is a MediaWiki extension which changes the search box behavior to include s
 Requires MediaWiki 1.25 or newer.
 
 For more details see the [extension page](https://www.mediawiki.org/wiki/Extension:CategorySearchSuggestions) at MediaWiki.org.
+
+<a href="https://app.codesponsor.io/link/VdKJLdwgqXqJvpCoxBCBDnWk/jkmartindale/CategorySearchSuggestions" rel="nofollow"><img src="https://app.codesponsor.io/embed/VdKJLdwgqXqJvpCoxBCBDnWk/jkmartindale/CategorySearchSuggestions.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
